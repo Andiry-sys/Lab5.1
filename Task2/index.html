@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Js</title>
+  </head>
+  <body>
+    <div class="grid2x2">
+      <div style="margin: 20px" class="form-group">
+        <label for="Login">Your email</label>
+        <input type="email" class="form-control" name="Email" id="userEmail" />
+      </div>
+      <div style="margin: 20px" class="form-group">
+        <label for="Login">Your login</label>
+        <input type="text" class="form-control" name="Login" id="userLogin" />
+      </div>
+
+      <div style="margin: 20px" class="form-group">
+        <label for="Password">Your password</label>
+        <input
+          type="password"
+          class="form-control"
+          name="Password"
+          id="userPassword"
+        />
+      </div>
+      <div style="margin: 20px" class="form-group">
+        <label for="Password">Repeat password</label>
+        <input
+          type="password"
+          class="form-control"
+          name="RepeatPassword"
+          id="userRepeatPassword"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <div class="form-group">
+        <input
+          type="button"
+          class="form-control"
+          id="btnSubmit"
+          value="Sign In"
+          onclick="Click()"
+        />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
