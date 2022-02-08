@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <form method="get">
+    <div class="grid2x2">
+      <div class="form-group">
+        <label for="Firstname">Firstname</label>
+        <input type="text" name="Firstname" id="name" />
+      </div>
+      <div class="form-group">
+        <label for="Lastname">Lastname</label>
+        <input type="text" name="Lastname" id="lastName" />
+      </div>
+      <div class="form-group">
+        <label for="Date">Birthday</label>
+        <input type="date" name="Date" id="birthdayDate" />
+      </div>
+      <div class="form-group">
+        
+          <p>Gender</p>
+          <p>
+            <input type="radio" name="Male" id="male" value="Male" />
+            <label for="Male">Male</label>
+            <input type="radio" name="Female" id="female" value="Female" />
+            <label for="Female">Female</label>
+          </p>
+        
+      </div>
+      <div class="form-group">
+        <label for="Country">Country</label>
+        <input name="Country" id="Con"></input>
+      </div>
+      <div class="form-group">
+        <label for="City">City</label>
+        <input name="City" id="city" ></input>
+      </div>
+    </div>
+    
+      <div>
+        <p>Skills</p>
+        <input type="checkbox" name="HTML" id="html" value="HTML" />
+        <label for="HTML">HTML</label>
+        <input type="checkbox" name="CSS" id="css" value="CSS" />
+        <label for="CSS">CSS</label>
+        <input type="checkbox" name="JS" id="js" value="JS" />
+        <label for="JS">JS</label>
+        <input type="checkbox" name="PHP" id="php" value="PHP" />
+        <label for="PHP">PHP</label>
+        <input type="checkbox" name="C++" id="c++" value="C++" />
+        <label for="C++">C++</label>
+        <input type="checkbox" name="JAVA" id="java" value="JAVA" />
+        <label for="JAVA">JAVA</label>
+        <input type="checkbox" name="C#" id="c#" value="C#" />
+        <label for="C#">C#</label>
+      </div>
+      <input class="form-control" type="button" onclick="Click()" value="Save">
+    </form>
+    <h4>Result:</h4>
+   
+    <form id="f1">
+      
+    </form>
+  
+    <script src="app.js"></script>
+  </body>
+</html>
